@@ -9,7 +9,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>pet-clinic-data</artifactId>
-  <version>0.0.5-SNAPSHOT</version>
+  <version>0.0.5</version>
 
     <properties>
         <spring-boot.repackage.skip>true</spring-boot.repackage.skip>
@@ -79,4 +79,8 @@
             </plugin>
         </plugins>
     </build>
+
+  <scm>
+    <tag>0.0.5-SNAPSHOT</tag>
+  </scm>
 </project>
