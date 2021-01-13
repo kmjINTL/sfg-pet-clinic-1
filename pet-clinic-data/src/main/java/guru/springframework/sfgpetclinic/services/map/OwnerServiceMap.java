@@ -5,7 +5,7 @@ import guru.springframework.sfgpetclinic.services.CrudService;
 
 import java.util.Set;
 
-public class OwnerServiceMap extends AbstractMapService<Owner, Long> implements CrudService<Owner, long> {
+public class OwnerServiceMap extends AbstractMapService<Owner, Long> implements CrudService<Owner, Long> {
 
     @Override
     public Set<Owner> findAll() {
@@ -13,7 +13,7 @@ public class OwnerServiceMap extends AbstractMapService<Owner, Long> implements 
     }
 
     @Override
-    public Owner findById(long id) {
+    public Owner findById(Long id) {
         return super.findById(id);
     }
 
@@ -28,7 +28,7 @@ public class OwnerServiceMap extends AbstractMapService<Owner, Long> implements 
     }
 
     @Override
-    public void deleteById(long id) {
+    public void deleteById(Long id) {
         super.deleteById(id);
     }
 }
