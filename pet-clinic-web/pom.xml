@@ -3,13 +3,12 @@
     <parent>
         <artifactId>sfg-pet-clinic-1</artifactId>
         <groupId>guru.springframework</groupId>
-        <version>0.0.5</version>
+        <version>0.0.7-SNAPSHOT</version>
     </parent>
 
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>pet-clinic-web</artifactId>
-  <version>0.0.5</version>
 
     <properties>
         <!-- Web dependencies -->
@@ -23,7 +22,7 @@
         <dependency>
             <artifactId>pet-clinic-data</artifactId>
             <groupId>guru.springframework</groupId>
-            <version>0.0.5</version>
+            <version>0.0.7-SNAPSHOT</version>
         </dependency>
 
         <dependency>
@@ -132,8 +131,4 @@
             </plugin>
         </plugins>
     </build>
-
-  <scm>
-    <tag>pet-clinic-web-0.0.5</tag>
-  </scm>
 </project>
