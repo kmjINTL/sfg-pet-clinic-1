@@ -96,7 +96,7 @@
     </build>
 
     <scm>
-        <developerConnection>scm:git:git@github.com:kmjINTL/sfg-pet-clinic-1.git</developerConnection>
+        <developerConnection>scm:git:git@github.com:KeanuRepos/sfg-pet-clinic-1.git</developerConnection>
         <tag>sfg-pet-clinic-1-0.0.5</tag>
     </scm>
 
