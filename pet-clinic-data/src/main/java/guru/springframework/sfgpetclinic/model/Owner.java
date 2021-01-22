@@ -9,6 +9,7 @@ import javax.persistence.*;
 import java.util.HashSet;
 import java.util.Set;
 
+//closes issue #28
 @Setter
 @Getter
 @NoArgsConstructor
