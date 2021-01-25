@@ -12,7 +12,7 @@ import java.time.LocalDate;
 @AllArgsConstructor
 @Builder
 @Entity
-@Table(name = "visits")
+@Table(name = "visits")// closing #38
 public class Visit extends BaseEntity {
 
     @Column(name = "date")
