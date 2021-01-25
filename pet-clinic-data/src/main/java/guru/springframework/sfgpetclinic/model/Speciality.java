@@ -13,7 +13,7 @@ import javax.persistence.Table;
 @AllArgsConstructor
 @Builder
 @Entity
-@Table(name = "specialties")
+@Table(name = "specialties")//closing #37
 public class Speciality extends BaseEntity {
 
     @Column(name = "description")
