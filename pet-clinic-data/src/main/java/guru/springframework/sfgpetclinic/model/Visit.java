@@ -28,5 +28,4 @@ public class Visit extends BaseEntity {
     public LocalDate getDate(){
         return date;
     }
-
 }
