@@ -77,7 +77,7 @@
                 <version>2.22.0</version>
                 <configuration>
                     <!--Added to skip test failure of surefire plugin-->
-                    <testFailureIgnore>true</testFailureIgnore>
+                    <!--<testFailureIgnore>true</testFailureIgnore>-->
                     <argLine>
                         --illegal-access=permit
                     </argLine>
