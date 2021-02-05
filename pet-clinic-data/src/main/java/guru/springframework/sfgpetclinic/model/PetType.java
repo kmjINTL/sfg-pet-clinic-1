@@ -20,6 +20,7 @@ public class PetType extends BaseEntity {
     @Column(name = "name")
     private String name;
 
+    //added method on the 5 Feb 2020.
     @Override
     public String toString() {
         return name;
