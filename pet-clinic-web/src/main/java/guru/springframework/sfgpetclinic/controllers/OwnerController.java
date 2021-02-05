@@ -42,6 +42,7 @@ public class OwnerController {
         }
 
         //find owners by last name
+        //"%" is syntax for a wildcard in SQL
         List<Owner> results = ownerService.findAllByLastNameLike("%" + owner.getLastName() +"%");
 
         if (results.isEmpty()){
