@@ -29,6 +29,7 @@ public class PetController {
         this.petTypeService = petTypeService;
     }
 
+    //added on the 6 Feb 2021
     @ModelAttribute("types")
     public Collection<PetType> populatePetTypes(){
         return petTypeService.findAll();
